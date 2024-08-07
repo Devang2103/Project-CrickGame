@@ -13,3 +13,4 @@ If User chooses Stump and Computer Chooses Stump also then Match will DRAW.
 So, these are the rules.
 All activities of the Users see in alert pop-up.
 Enjoy it.
+Technology used: HTML,CSS,JavaScript.
