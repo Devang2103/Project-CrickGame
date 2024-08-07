@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricker Game</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <header><h1>Cricket Game</h1></header><hr>
+    <h1>Bat Ball Stump Game</h1>
+    <main>
+
+        <button id="prop" onclick="alert('your choice is Bat.🙂');
+         let randomnum=Math.random()*3;
+            
+            let compchoice;
+            if (randomnum >0 && randomnum<=1){
+                compchoice='Bat';
+            }
+            else if (randomnum >1 && randomnum<=2)
+            {
+                compchoice='Boll';
+            }
+            else 
+            {
+                compchoice='Stump';
+            }
+            if (compchoice==='Bat'){
+            alert('computer Choice is also Bat.\nMatch draw\nTry Again:');
+            }
+            else if (compchoice=='Boll'){
+            alert('computer Choice is Boll.\ncongratulations! You Win This Match👍');}
+            else if (compchoice=='Stump'){
+            alert( 'computer Choice is Stump:\nOh! you lost the game👎\nTry Again:');
+            }
+            ">Bat</button>
+        <button id="prop" onclick="alert('your choice is Boll.🙂');
+         randomnum=Math.random()*3;
+         
+         
+           if (randomnum >0 && randomnum<=1){
+               compchoice='Bat';
+           }
+           else if (randomnum >1 && randomnum<=2)
+           {
+               compchoice='Boll';
+           }
+           else 
+           {
+               compchoice='Stump';
+           }
+           if (compchoice=='Boll'){
+           alert('computer Choice is also Boll.\n Match draw\nTry Again:');
+           }
+           else if (compchoice=='Stump'){
+           alert('computer Choice is Stump.\ncongratulations! You Win This Match👍');
+           }
+           else if (compchoice=='Bat'){
+           alert( 'computer Choice is Bat:\nOh! you lost the game👎\nTry Again:');
+        }
+           ">Boll</button>
+        <Button id="prop" onclick="alert('your choice is Stump.🙂');
+         randomnum=Math.random()*3;
+            userchoice='Stump';
+        
+           if (randomnum >0 && randomnum<=1){
+               compchoice='Bat';
+           }
+           else if (randomnum >1 && randomnum<=2)
+           {
+               compchoice='Boll';
+           }
+           else
+           {
+               compchoice='Stump';
+           }
+           if (compchoice=='Stump'){
+           alert('computer Choice is also Stump.\nMatch draw.\nTry Again:');
+           }
+           else if (compchoice=='Bat'){
+           alert('computer Choice is Bat.\ncongratulations! You Win This Match👍');}
+           else if (compchoice=='Boll'){
+           alert( 'computer Choice is boll:\nOh! you lost the game👎\nTry Again:');
+           }
+           ">Stump</Button><hr>
+           
+   <h4>Click any Button
+    ↑</h4>
+    <h5>Goodbye</h5>
+
+
+
+    </main>
+</body>
+</html>
